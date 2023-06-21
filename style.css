@@ -79,10 +79,10 @@ button:hover {
 	background-image: url("bg.jpg");
 	background-size: cover;
 	background-position: center;
+	background-blend-mode: darken;
 	color: black;
 	text-align: center;
 	padding: 10rem 0;
-	opacity: 0.4;
 }
 
 #home h2 {
@@ -90,10 +90,8 @@ button:hover {
 	margin-bottom: 2rem;
 }
 
-#home2 {
-	color: black;
-	text-align: center;
-	opacity: 10;
+#home p {
+	font-weight: 800;
 }
 
 /* Shop Styles */
