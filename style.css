@@ -131,7 +131,7 @@ li {
 	background-color: #666;
 }
 
-footer {
+#footer {
 	background: linear-gradient(yellow, red);
 	color: #fff;
 	text-align: center;
@@ -140,6 +140,13 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+#footer2 {
+	background: linear-gradient(yellow, red);
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
 }
 
 #myBtn {
