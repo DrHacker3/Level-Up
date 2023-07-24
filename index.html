@@ -3,6 +3,7 @@
 <head>
 	<title>Level Up! Retro Gaming Store</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
 </head>
 <body>
 	<header>
@@ -25,8 +26,28 @@
 			<button id="button" onclick="window.location.href='about.html'">Learn More</button>
 		</section>
 	</main>
+
+
+	<div id="id01" class="modal">
+	
+	<form class="modal-content animate">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+
+		<div class="container">
+
+		<label for="eml"><b>Subscribe to Newsletter</b></label>
+		<input type="email" placeholder="Enter Email" name="eml" required>
+			
+		<button id="buttonsub" type="submit">Subscribe</button>
+		</div>
+
+	</form>
+	</div>
 	<footer id="footer">
 		<p>&copy; 2023 Level Up! Retro Gaming Store. All rights reserved.</p>
+		<button id="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Subscribe</button>
 	</footer>
 </body>
 </html>
