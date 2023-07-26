@@ -105,7 +105,7 @@ input[type=email] {
   
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {
-    span.psw {
+    span.eml {
        display: block;
        float: none;
     }
